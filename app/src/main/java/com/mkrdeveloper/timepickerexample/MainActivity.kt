@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun addZero (num: Int): String{
+    private fun addZero (num: Int): String{
         return if (num <= 9) "0$num" else num.toString()
     }
 }
